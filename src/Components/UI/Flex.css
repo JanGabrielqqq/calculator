@@ -1,0 +1,23 @@
+.flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  margin: 0;
+  height: 75vh;
+
+  min-width: 400px;
+  padding: 90px 0;
+}
+
+@media (max-width: 700px) {
+  .flex {
+    width: auto;
+    height: auto;
+    /* margin: 70px auto; */
+    /* flex-direction: column; */
+    padding: 20px 0;
+    min-width: 0px;
+    flex-direction: column-reverse;
+  }
+}
